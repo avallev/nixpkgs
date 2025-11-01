@@ -13830,8 +13830,6 @@ self: super: with self; {
 
   pyowm = callPackage ../development/python-modules/pyowm { };
 
-  pyownet = callPackage ../development/python-modules/pyownet { };
-
   pyoxigraph = callPackage ../development/python-modules/pyoxigraph { };
 
   pypager = callPackage ../development/python-modules/pypager { };

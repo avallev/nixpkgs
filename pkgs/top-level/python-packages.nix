@@ -9326,6 +9326,8 @@ self: super: with self; {
 
   metawear = callPackage ../development/python-modules/metawear { };
 
+  meteo-lt-pkg = callPackage ../development/python-modules/meteo-lt-pkg { };
+
   meteoalertapi = callPackage ../development/python-modules/meteoalertapi { };
 
   meteocalc = callPackage ../development/python-modules/meteocalc { };

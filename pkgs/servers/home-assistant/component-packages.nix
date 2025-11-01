@@ -4080,7 +4080,8 @@
       ];
     "nintendo_parental_controls" =
       ps: with ps; [
-      ]; # missing inputs: pynintendoparental
+        pynintendoparental
+      ];
     "nissan_leaf" =
       ps: with ps; [
         pycarwings2
@@ -7605,6 +7606,7 @@
     "nightscout"
     "niko_home_control"
     "nina"
+    "nintendo_parental_controls"
     "nmap_tracker"
     "nmbs"
     "no_ip"
